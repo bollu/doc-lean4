@@ -18,7 +18,7 @@ Documentation</h1>
 <a class="break_within" href="#top">Lean.Data.PrefixTree</a>
 </h3>
 <p class="gh_nav_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean">source</a>
 </p>
 <div class="imports">
 <details>
@@ -115,7 +115,7 @@ Documentation</h1>
 <div class="decl" id="Lean.PrefixTreeNode">
 <div class="inductive">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L12-L13">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L12-L13">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">inductive</span>
@@ -137,7 +137,7 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.instInhabitedPrefixTreeNode">
 <div class="instance">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L15-L16">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L15-L16">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">instance</span>
@@ -166,7 +166,7 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.empty">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L20-L21">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L20-L21">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
@@ -195,8 +195,9 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.insert">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L24-L39">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L24-L39">source</a>
 </div>
+<div class="attributes">@[specialize]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -233,10 +234,10 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.insert.insertEmpty">
 <div class="constant">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L25-L30">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L25-L30">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">constant</span>
+<span class="decl_kind">partial def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTreeNode.insert.insertEmpty">Lean.PrefixTreeNode.insert.insertEmpty</a>
 </span>
@@ -259,10 +260,10 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.insert.loop">
 <div class="constant">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L31-L38">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L31-L38">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">constant</span>
+<span class="decl_kind">partial def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTreeNode.insert.loop">Lean.PrefixTreeNode.insert.loop</a>
 </span>
@@ -285,8 +286,9 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.find?">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L42-L49">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L42-L49">source</a>
 </div>
+<div class="attributes">@[specialize]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -320,10 +322,10 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.find?.loop">
 <div class="constant">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L43-L48">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L43-L48">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">constant</span>
+<span class="decl_kind">partial def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTreeNode.find?.loop">Lean.PrefixTreeNode.find?.loop</a>
 </span>
@@ -344,8 +346,9 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.foldMatchingM">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L52-L65">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L52-L65">source</a>
 </div>
+<div class="attributes">@[specialize]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -396,10 +399,10 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.foldMatchingM.fold">
 <div class="constant">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L53-L58">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L53-L58">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">constant</span>
+<span class="decl_kind">partial def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTreeNode.foldMatchingM.fold">Lean.PrefixTreeNode.foldMatchingM.fold</a>
 </span>
@@ -432,10 +435,10 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.foldMatchingM.find">
 <div class="constant">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L59-L64">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L59-L64">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">constant</span>
+<span class="decl_kind">partial def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTreeNode.foldMatchingM.find">Lean.PrefixTreeNode.foldMatchingM.find</a>
 </span>
@@ -472,7 +475,7 @@ Node: <span class="fn">{α : <span class="fn">Type u</span>} → <span class="fn
 <div class="decl" id="Lean.PrefixTreeNode.WellFormed">
 <div class="inductive">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L67-L69">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L67-L69">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">inductive</span>
@@ -503,10 +506,10 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L73-L74">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L73-L74">source</a>
 </div>
 <div class="decl_header">
-<span class="decl_kind">def</span>
+<span class="decl_kind">noncomputable def</span>
 <span class="decl_name">
 <a class="break_within" href="/Lean/Data/PrefixTree.html#Lean.PrefixTree">Lean.PrefixTree</a>
 </span>
@@ -530,7 +533,7 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.empty">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L78-L79">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L78-L79">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
@@ -563,7 +566,7 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.instInhabitedPrefixTree">
 <div class="instance">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L81-L82">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L81-L82">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">instance</span>
@@ -596,7 +599,7 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.instEmptyCollectionPrefixTree">
 <div class="instance">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L84-L85">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L84-L85">source</a>
 </div>
 <div class="decl_header">
 <span class="decl_kind">instance</span>
@@ -629,8 +632,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.insert">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L88-L89">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L88-L89">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -669,8 +673,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.find?">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L92-L93">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L92-L93">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -706,8 +711,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.foldMatchingM">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L96-L97">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L96-L97">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -759,8 +765,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.foldM">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L100-L101">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L100-L101">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -810,8 +817,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.forMatchingM">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L104-L105">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L104-L105">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -857,8 +865,9 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 <div class="decl" id="Lean.PrefixTree.forM">
 <div class="def">
 <div class="gh_link">
-<a href="https://github.com/leanprover/lean4/blob/6d07092d1ecdceea19d89135b6c8ac6ca1b7575f/src/Lean/Data/PrefixTree.lean#L108-L109">source</a>
+<a href="https://github.com/leanprover/lean4/blob/31969765d278416470dcecf118c31aa714bd38ce/src/Lean/Data/PrefixTree.lean#L108-L109">source</a>
 </div>
+<div class="attributes">@[inline]</div>
 <div class="decl_header">
 <span class="decl_kind">def</span>
 <span class="decl_name">
@@ -2474,8 +2483,10 @@ insertWff: <span class="fn">∀ {α : <span class="fn">Type u_1</span>} {β : <s
 </nav>
 <script>
 siteRoot = "/";
-    </script>
+      </script>
 <script src="/nav.js">
+</script>
+<script src="/search.js">
 </script>
 </body>
 </html>
